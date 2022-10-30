@@ -1,0 +1,18 @@
+.total{
+    background-color:  rgba(6, 18, 188, 0.22);
+
+}
+.total p{
+    font-size: 50px;
+    text-align: center;
+
+}
+.total2 button{
+    width: auto;
+    height: 80px;
+    font-size: 30px;
+   
+}
+.total2 {
+    text-align: center;
+}

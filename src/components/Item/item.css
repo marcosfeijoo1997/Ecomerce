@@ -1,0 +1,29 @@
+.product {
+  text-decoration: none;
+   width: 90%;
+   max-width: 1200px;
+   margin: auto;
+   padding: 60px;
+   background: #f3f3f3;
+   margin-top: 50px;
+   border-top: 6px none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   vertical-align: auto;
+}
+
+.title1 {
+   margin-left: 20px;
+   color: black;
+   font-size: 22px;
+   font-weight: 500;
+   
+}
+.item 
+{
+  width: 800px;
+}
+
+
