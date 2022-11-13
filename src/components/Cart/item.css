@@ -1,18 +1,33 @@
-.total{
-    background-color:  rgba(6, 18, 188, 0.22);
+.contenido2 {
+position: relative;
+margin: auto;
+padding: auto;
+left: auto;
+right: left;
+text-align: center;
+    width: 750px;
 
 }
-.total p{
-    font-size: 50px;
+.contenido2 p {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 102, 255, 0.568);
+}
+.contenido2 p {
+    font-size: 45px;
     text-align: center;
+}
+.contenido2 input {
+    font-size: 25px;
+}
 
+.contenido2 form
+{
+    text-align: center
 }
-.total2 button{
-    width: auto;
-    height: 80px;
-    font-size: 30px;
-   
-}
-.total2 {
-    text-align: center;
+.contenido2 form button
+{
+
+    width: 200px;
+    font-size: 20px;
 }

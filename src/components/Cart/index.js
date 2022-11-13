@@ -2,6 +2,7 @@ import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { useState} from 'react';
 import { useCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
+import './item.css'
 
 import swal from 'sweetalert';
 import ItemCart from '../ItemCart/index'
@@ -103,7 +104,7 @@ const Cart = () => {
                 onChange={handleChange}
                 required
             />
-            <button onClick={handleClick}>Emitir orden de compra</button>
+            <button classname='emitir' onClick={handleClick}>Emitir orden de compra</button>
             </form>
         </div>
         </>
